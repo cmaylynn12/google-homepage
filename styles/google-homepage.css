@@ -1,0 +1,58 @@
+.section {
+    width: auto;
+}
+
+#navbar {
+    width: 100%;
+    display: inline-block;
+}
+
+#about_and_store {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.right-section {
+    float: right;
+}
+
+li {
+    padding: 10px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: auto;
+    margin-top: 175px;
+    width: 50%;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar {
+    margin-top: 30px;
+    border-radius: 25px;
+    height: 40px;
+    border-width: 0.5px;
+    border-color: silver;
+}
+
+#buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+}
