@@ -42,11 +42,19 @@ ul {
 }
 
 #search-bar {
+    display: inline-block;
     margin-top: 30px;
     border-radius: 25px;
     height: 40px;
+    border-style: solid;
     border-width: 0.5px;
-    border-color: silver;
+    border-color: rgb(219, 219, 219);
+    width: 100%;
+    background-image: url('images/outline_search_black_48dp.png');
+}
+
+#search-bar:hover {
+    box-shadow: 1px 1px 1px 1px rgb(221, 221, 221);
 }
 
 #buttons {
@@ -88,3 +96,10 @@ ul {
     border-color: rgb(204, 204, 204);
 }
 
+.google_button {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+    color: rgb(48, 47, 47);
+    background-color: rgb(250, 249, 249);
+}
